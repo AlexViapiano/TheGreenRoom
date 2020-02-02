@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>The Green Room</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/profile.png" type="image/x-icon"/>
+		<meta name="description" content="A community created by GreenmanStocks and TraderPopeye on Twitter!" />	
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<header id="header" class="alt">
+					<h1><a href="index.html">Green Room Channel</a></h1>
+					<nav>
+						<a class="button primary" href="./index.html">Home</a>
+					</nav>
+				</header>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>Disclaimer</h2>
+								<p>
+									<b>TERMS OF USE AND IMPORTANT INFORMATION PLEASE READ THESE TERMS OF USE AND IMPORTANT INFORMATION CAREFULLY BEOFRE USING SITE/CHANNEL.</b>
+									<br></br>
+									All and any information shared in The Green Room site/channel and its members, officers, owners, employees is for informational purposes only. Use and access of The Green Room site/channel information, materials, services, and other content available through the Slack channel are subject to these terms of use.
+									<br></br>
+									The Content is for informational purposes only, you should not construe any such information or other material as investment, financial, or other advice. Nothing contained in our site/channel should be considered as investment advice. All Content in The Green Room site/channel is information of a general nature, nothing in the channel constitutes professional and/or financial advice.
+									<br></br>
+									You alone assume the sole responsibility of evaluating the merits and risks associated with the use of any information or other Content on the Site/Channel before making any decisions based on such information or other Content. In exchange for using the Site, you agree to not place The Green Room or any members liable for any possible claim for damages arising from any decision you make based on information or other Content made available to you through the Site/channel.
+									<br></br>
+									NO refunds after 24 hours of purchase. 
+								</p>
+								<input type="checkbox" id="checkbox-agree" name="checkbox-agree">
+								<label for="checkbox-agree">Agree</label>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner subscription-plan-container disabled">
+
+									<h3 class="major">Subscription Plans</h3>
+									<br>
+									<div class="table-wrapper">
+										<table class="alt">
+										  <thead>
+											<tr>
+											  <th>Plan Name</th>
+											  <th>Description</th>
+											  <th>Price</th>
+											</tr>
+										  </thead>
+										  <tbody>
+											<tr>
+											  <td>Basic (Monthly)</td>
+											  <td>Basic monthly membership plan</td>
+											  <td>60.00$</td>
+											</tr>
+											<tr>
+											  <td>Premium (Monthly)</td>
+											  <td>Monthly 1 on 1 video personalized coaching via video conference. (1 hour per month ONLY with Premium Plan)
+											</td>
+											  <td>150.00$</td>
+											</tr>
+											<tr>
+											  <td>Annual</td>
+											  <td>Discounted membership</td>
+											  <td>600.00$</td>
+											</tr>
+										  </tbody>
+										</table>
+									  </div>
+
+									  <br><br>
+
+									  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+										<input type="hidden" name="cmd" value="_s-xclick"></input>
+										<input type="hidden" name="hosted_button_id" value="VSUKPRUU7KSQ2"></input>
+										<table>
+										  <tbody>
+											<input type="hidden" name="on0" value="The Green Room Payment Plans"></input>
+
+											<tr>
+											  <td>
+												<select name="os0">
+												  <option value="Basic Monthly Membership plan">Basic Monthly Membership plan : $60.00 CAD - monthly</option>
+												  <option value="Premium Monthly Membership plan">Premium Monthly Membership plan : $150.00 CAD - monthly</option>
+												  <option value="Annual Membership Plan">Annual Membership Plan : $600.00 CAD - yearly</option>
+												</select>
+											  </td>
+											</tr>
+										  </tbody>
+										</table>
+										<input type="hidden" name="currency_code" value="CAD"></input>
+										<br></br>
+										<center>
+											<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></input>
+											<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></img>
+										</center>
+									  </form>
+
+								</div>
+							</div>
+
+					</section>
+
+					<!-- Footer -->
+					<section id="footer">
+						<div class="inner" style="padding-top: 0px;">
+						
+							<ul class="copyright">
+								<li>&copy; Green Room Channel - All rights reserved.</li><li>Web Designer: <a href="http://www.montreact.com">Montreact.com</a></li>
+							</ul>
+						</div>
+					</section>
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script>
+				$('#checkbox-agree').change(function(){
+					if($(this).is(":checked")) {
+						$('.subscription-plan-container').removeClass('disabled');
+					} else {
+						$('.subscription-plan-container').addClass('disabled');
+					}
+				});
+			</script>
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
