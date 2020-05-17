@@ -4207,3 +4207,19 @@ input, select, textarea {
 	-webkit-animation-name: rollIn;
 	animation-name: rollIn;
   }
+
+.testimonials {
+	border-radius: 20px; 
+	max-height: 100px; 
+	width: auto; 
+	padding: 5px; 
+	max-width: 400px;
+}
+
+@media screen and (max-width: 480px) {
+
+	.testimonials {
+		max-width: 300px ;
+	}
+
+}
